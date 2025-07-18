@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --color-cyan-300: #8fe3f9;
+  --color-cyan-600: #4d96a9;
+
+  --color-purple-300: #d9b8ff;
+  --color-purple-600: #855fb1;
+
+  --color-slate-100: #fafafa;
+  --color-slate-300: #d1d1df;
+  --color-slate-600: #87879d;
+  --color-slate-900: #28283d;
+}
+
+@theme inline {
+  --font-red-hat-display: var(--font-red-hat-display);
+  --font-red-hat-display--font-feature-settings: "liga" off, "clig" off;
+}
+
+html,
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+body {
+  background-color: var(--color-slate-100);
+}
