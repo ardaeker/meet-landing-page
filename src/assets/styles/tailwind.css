@@ -5,6 +5,7 @@
   --color-cyan-600: #4d96a9;
 
   --color-purple-300: #d9b8ff;
+  --color-purple-500: #b18bdd;
   --color-purple-600: #855fb1;
 
   --color-slate-100: #fafafa;
@@ -14,8 +15,22 @@
 }
 
 @theme inline {
+  --breakpoint-lg: 71.25rem;
+
   --font-red-hat-display: var(--font-red-hat-display);
   --font-red-hat-display--font-feature-settings: "liga" off, "clig" off;
+
+  --color-cyan-300: var(--color-cyan-300);
+  --color-cyan-600: var(--color-cyan-600);
+
+  --color-purple-300: var(--color-purple-300);
+  --color-purple-500: var(--color-purple-500);
+  --color-purple-600: var(--color-purple-600);
+
+  --color-slate-100: var(--color-slate-100);
+  --color-slate-300: var(--color-slate-300);
+  --color-slate-600: var(--color-slate-600);
+  --color-slate-900: var(--color-slate-900);
 }
 
 html,
