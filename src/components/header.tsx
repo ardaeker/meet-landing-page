@@ -56,7 +56,7 @@ export function Header() {
               <UserCloud position="right" />
             </div>
           </div>
-          <div className="mt-12 space-y-6 px-8 text-center md:mt-18 lg:mt-0 lg:space-y-8">
+          <div className="mt-12 space-y-6 px-8 text-center md:mt-18 lg:mt-0 lg:space-y-8 lg:pt-6">
             <h1 className="text-[2.5rem] leading-11 font-black text-slate-900 md:text-5xl md:leading-[3.3rem] lg:text-[4rem] lg:leading-[4.4rem]">
               Group Chat for Everyone
             </h1>
