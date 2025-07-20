@@ -2,9 +2,18 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="relative bg-[#5699A8] px-8 py-16 lg:px-0 lg:py-28">
+    <footer className="relative mt-27 bg-[#5699A8] px-8 py-16 lg:px-0 lg:py-28">
+      <div
+        className="absolute -top-27 left-1/2 z-10 flex w-14 -translate-x-1/2 flex-col items-center justify-center"
+        aria-hidden
+      >
+        <div className="h-20 w-px bg-slate-300" />
+        <div className="flex h-14 w-14 items-center justify-center rounded-full border border-slate-300 bg-slate-100 text-base leading-6 text-slate-600">
+          02
+        </div>
+      </div>
       <Image src="/images/footer/footer-illustration.png" alt="" className="object-cover" sizes="100vw" fill />
-      <div className="relative w-full space-y-6 max-lg:text-center md:mx-auto md:max-w-126 lg:flex lg:max-w-280 lg:justify-between lg:gap-x-8">
+      <div className="relative mx-auto w-full max-w-77.75 space-y-6 max-lg:text-center md:max-w-126 lg:flex lg:max-w-280 lg:justify-between lg:gap-x-8">
         <h2 className="text-[2rem] leading-[2.2rem] font-black text-slate-100 md:text-4xl md:leading-[2.475rem] lg:max-w-111.25 lg:text-[2.5rem] lg:leading-11">
           Experience more together
         </h2>

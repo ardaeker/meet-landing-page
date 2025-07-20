@@ -2,6 +2,7 @@
 
 :root {
   --color-cyan-300: #8fe3f9;
+  --color-cyan-500: #71c0d4;
   --color-cyan-600: #4d96a9;
 
   --color-purple-300: #d9b8ff;
@@ -15,12 +16,14 @@
 }
 
 @theme inline {
+  --breakpoint-xs: 23.4375rem;
   --breakpoint-lg: 71.25rem;
 
   --font-red-hat-display: var(--font-red-hat-display);
   --font-red-hat-display--font-feature-settings: "liga" off, "clig" off;
 
   --color-cyan-300: var(--color-cyan-300);
+  --color-cyan-500: var(--color-cyan-500);
   --color-cyan-600: var(--color-cyan-600);
 
   --color-purple-300: var(--color-purple-300);
